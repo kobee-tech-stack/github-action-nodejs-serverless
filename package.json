@@ -33,7 +33,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-no-loops": "^0.3.0",
     "babel-eslint": "^10.1.0",
-    "mocha": "^8.2.1",
+    "mocha": "^9.2.2",
     "nodemon": "^2.0.6",
     "nyc": "^15.1.0",
     "serverless-dotenv-plugin": "^3.1.0",
