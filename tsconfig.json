@@ -23,6 +23,7 @@
     "src/",
     "src/**/**/*.json",
     "src/**/**/*.html",
-    "tests/"
+    "tests/",
+    "index.ts"
   ]
 }
