@@ -13,6 +13,5 @@ RUN yarn install --production
 COPY --from=builder /usr/app/.build ./build
 COPY .env .
 
-RUN yarn global add pm2
 EXPOSE 8000
-CMD ["pm2-runtime", "start", "build/index.js", "--name", "fargate-nodejs-graphql"]
+CMD ["node", "build/index.js"]
